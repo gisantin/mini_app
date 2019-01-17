@@ -3,24 +3,250 @@
     
 }
 
+@font-face{
+
+    src: url("font/SF-Pro-Display/SF-Pro-Display-Thin");
+    font-style: normal;
+    font-weight: lighter;
+    font-family: 'SF-Pro-Display-Thin', 'Open Sans', 'Helvetica Neue', sans-serif'
+
+}
+
 body{
+    font-family: 'SF-Pro-Display-Thin', Arial, Helvetica, sans-serif; 
     background-image: url(../assets/pattern.png);
     background-repeat: repeat;
-    }
+}
 
-.section{
-    width: 325px;
+/* screen#1 */
+
+.outset{
+    width: 25%;
     margin: 0 auto;
 }
 
-.section-image{
-
-    margin-top: 200px;
-}
-
-
-img{
-    width: 324px;
+.outset__open--screens{
+    width: 236px;
     display: flex;
     align-items: center;
+    margin-top: 120px;
+
+}
+
+.outset__open--logo{
+    width: 236px;
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+
+/* img{
+    width: 236px;
+    display: flex;
+    align-items: center;
+} */
+
+.outset__btn{
+
+    margin: 50px 0px;
+   
+}
+
+.outset__btn--create{
+
+    border: 0;
+    padding: 9px 10px;
+    margin: 7px 28px;
+    width: 175px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'SF-Pro-Display-Light', Arial, Helvetica, sans-serif;
+    background-color: #ef7734;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #ffff;
+    border-radius: 3px;
+}
+
+.outset__btn--send{
+
+    border: 0;
+    padding: 9px 10px;
+    margin: 7px 28px;
+    width: 175px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'SF-Pro-Display-Light', Arial, Helvetica, sans-serif;
+    background-color: #d3ce3d;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #ffff;
+    border-radius: 3px;
+}
+
+/* screen#2 */
+
+.register{
+   
+    width: 15%;
+    margin: 0 auto;
+    
+}
+
+.register__reg--logo{
+    width: 190px;
+    display: flex;
+    align-items: center;
+    margin-top: 51px;
+
+}
+
+.register__box{
+    position: relative;
+    background-color: #f9f4c2;
+    width: 440px;
+    margin: 18px 0 50px -127px;
+    height: 425px;
+    border-radius: 4px;
+    box-shadow: -1px 5px 1px rgba(0, 0, 0, .3);
+}
+
+.register__box--arrow{
+
+    margin: 17px 13px;
+    width: 10px;
+
+}
+
+.register__box--pic{
+
+    position: relative;
+    width: 52px;
+    margin: 4px 44%;
+}
+
+.register__title{
+
+    font-family: 'SF-Pro-Display-Thin', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #82735c;
+    margin: 3px 171px 38px;
+}
+
+.register__form{
+
+    display: inline-block;
+    width: 90%;
+    margin: 3px 18%;
+}
+.register__form-group{
+
+    position: relative;
+    width: 100%;
+}
+
+.register__input{
+    width: 70%;
+    border-radius: 4px;
+    border: 1px solid #acacac;
+    padding: 9px;
+    font-size: 13px;
+    margin: 3px;
+
+}
+
+.register__button{
+
+    border: 0;
+    padding: 11px;
+    margin: 30px 46px;
+    width: 190px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'SF-Pro-Display-Light', Arial, Helvetica, sans-serif;
+    background-color: #ef7734;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #ffff;
+    border-radius: 3px;
+}
+
+/* screen#3 */
+
+.login{
+   
+    width: 15%;
+    margin: 0 auto;
+    
+}
+
+.login__reg--logo{
+    width: 190px;
+    display: flex;
+    align-items: center;
+    margin-top: 51px;
+
+}
+
+.login__box{
+    position: relative;
+    background-color: #f9f4c2;
+    width: 440px;
+    margin: 18px 0 50px -127px;
+    height: 425px;
+    border-radius: 4px;
+    box-shadow: -1px 5px 1px rgba(0, 0, 0, .3);
+}
+
+.login__box--arrow{
+
+    margin: 17px 13px;
+    width: 10px;
+
+}
+
+.login__title{
+
+    font-family: 'SF-Pro-Display-Thin', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #82735c;
+    margin: 23px 190px 38px;
+}
+
+.login__form{
+
+    display: inline-block;
+    width: 90%;
+    margin: 3px 18%;
+}
+.login__form-group{
+
+    position: relative;
+    width: 100%;
+}
+
+.login__input{
+    width: 70%;
+    border-radius: 4px;
+    border: 1px solid #acacac;
+    padding: 9px;
+    font-size: 13px;
+    margin: 3px;
+
+}
+
+.login__button{
+
+    border: 0;
+    padding: 11px;
+    margin: 14px 46px;
+    width: 190px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'SF-Pro-Display-Light', Arial, Helvetica, sans-serif;
+    background-color: #d3ce3d;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #ffff;
+    border-radius: 3px;
 }
