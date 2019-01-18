@@ -6,12 +6,12 @@ const btnSend = document.getElementById("buttonSend");
 
 btnCreate.addEventListener("click", function (e) {
     e.preventDefault();
-    window.location.href = 'cadastro.html';
+    location.open = 'cadastro.html';
 });
 
 btnSend.addEventListener("click", function(e){
     e.preventDefault();
-    window.location.href = 'login.html';
+    location.open = 'login.html';
 });
 
 
@@ -84,38 +84,46 @@ arrowLogin.addEventListener("click", window.history.back, false);
 
 //Criar listas
 
-const inputList = document.getElementById("inputNameNote"); //campo para nome de lista
-const buttonCreateList = document.querySelector(".note-box__set--create"); //Criar lista
-const listTimeline = document.querySelector(".note-box__insert"); //div vazia
+const inputTask = document.getElementById("inputNameTask1");
+const buttonTask = document.querySelector("list__btn2");
+const listBoxNew = document.querySelector("list-box__pen");
 
-let num = 0;
+let num = 0
 
-buttonCreateList.addEventListener("click", function (e) {
+buttonTask.addEventListener("click", function(e){
     e.preventDefault();
 
-    var newInputList = inputList.value.replace(/\s\s+/g, ''); //newInputList é o que foi digitado na inputList
+    var newTaskList = inputTask.value.replace(/\s\s+/g, '');
 
-    if (newInputList === undefined || newInputList === null || newInputList === "" || newInputList.length === 0) {
+    if (newTaskList === undefined || newTaskList === null || newTaskList === "" || newTaskList.length === 0) {
         return false;
-
-
 }
+num++
+
+ //div q abraça tdo mundo
+ const div = document.createElement("div");
+ div.className = "list-box__new";
+ 
+
+ //cria um novo elemento pra lista
+ const newListP = document.createElement("p");
+ newListP.className = "list-box__cont";
+ //passei o conteúdo do input pro paragrafo  
+ newListP.innerHTML = inputTask.value;
 
 
-    num++
-
-    //div q abraça tdo mundo
-    const div = document.createElement("div");
-    div.className = "note-box__new";
-    console.log("errou!");
-
-    //cria um novo elemento pra lista
-    const newListP = document.createElement("p");
-    newListP.className = "note-box__p";
-    //passei o conteúdo do input pro paragrafo  
-    newListP.innerHTML = inputList.value;
 
 
+})
+
+
+
+
+
+
+
+
+   
 
 
 

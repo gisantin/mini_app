@@ -45,9 +45,14 @@ body.home{
 
 
 
-.outset__btn{
+.outset__btn1{
 
-    margin: 50px 53px;
+    margin: 48px 53px 29px;
+   
+}
+.outset__btn2{
+
+    margin: -38px 53px;
    
 }
 
@@ -421,6 +426,27 @@ body.home{
 .list-box__img{
     width: 16px;
 }
+
+.list-box__job{
+    position: relative;
+    margin: -71px 0px 14px 197px;
+}
+.list-box__label {
+    
+}
+.list-box__box{
+    border: 1px solid #60b999;
+    width: 15px;
+    border-radius: 2px;
+    height: 14px;
+    cursor: pointer;
+    
+}
+.list-box__p{
+    font-size: 14px;
+    margin: -15px 0px 10px 22px;
+}
+
 
 
 
