@@ -47,7 +47,7 @@ body.home{
 
 .outset__btn{
 
-    margin: 50px 0px;
+    margin: 50px 53px;
    
 }
 
@@ -326,16 +326,30 @@ body.home{
     align-items: center;
 } */
 
-.list-box__list{
+
+.list-box__list-one{
     position: relative;
     background-color: transparent;
     padding: 8px 6px;
-    border: 1px solid #ef7734;
+    border: 1px solid #60b999;
     width: 49%;
     border-radius: 4px;
     margin-left: 162px;
     margin-bottom: -60px;
 }
+
+.list-box__list-two{
+    position: relative;
+    background-color: transparent;
+    padding: 8px 6px 175px;
+    border: 1px solid #60b999;
+    width: 49%;
+    border-radius: 4px;
+    margin-left: 162px;
+    margin-bottom: -60px;
+}
+
+
 
 .list-box__icon{
     margin: 10px 0px 0px 172px;
@@ -385,7 +399,28 @@ body.home{
     margin-left: 230px;
 }
 
+.list-box__task1{
 
+    position: absolute;
+    margin: 36px 0px 0px -483px;
+    width: 32%;
+    background: transparent;
+    border: 1px solid #ef7734;
+    border-radius: 4px;
+    padding: 4px;
+}
+.list__btn2{
+    position: absolute;
+    margin-left: 610px;
+    display: flex;
+    border: none;
+    background-color: transparent;
+    margin-top: -99px;
+    cursor: pointer;
+}
+.list-box__img{
+    width: 16px;
+}
 
 
 
