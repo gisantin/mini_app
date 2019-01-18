@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="font/SF-Pro-Display/SF-Pro-Display-Thin" >
     <link rel="stylesheet" href="css/style.css">
     
-    <title>Mini App To-do List</title>
+    <title>Login</title>
 </head>
 
-<body>
+<body class = "home">
         <div class = "login">
             <div class = "login__reg">
                 <img class = "login__reg--logo" src="assets/marca_mini_app.png" alt="Logo da marca mini app">
@@ -18,15 +18,15 @@
     
             <div class = "login__box">
     
-                <img class = "login__box--arrow" src="assets/seta.png" alt="seta voltar tela">
+                <a id = "loginBack" href="index.html"><img class = "login__box--arrow" src="assets/seta.png" alt="seta voltar tela"></a>     
                 <h1 class = "login__title">Entrar</h1>
     
-            <form action="" class = "login__form">
+            <form action="submit" class = "login__form">
                 <div class = "login__form-group">
-                    <input type="name" class = "login__input" id="loginInputName" placeholder="Nome">
+                    <input type="name" class = "login__input" id="loginInputName" placeholder="Nome" required="name">
                 </div>
                 <div class = "login__form-group">
-                    <input type="password" class = "login__input" id="loginInputPassword" placeholder="Senha">
+                    <input type="password" class = "login__input" id="loginInputPassword" placeholder="Senha" required="password">
                 </div>
                 <div class = "login__form-group">
                     <button class = "button login__button">Entrar</button>
